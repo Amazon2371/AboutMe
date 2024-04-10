@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Introduction of Myself</title>
+    <link rel="stylesheet" href="Style2.css">
+    <style>
+		.object-container {
+			float: left;
+			margin-right: 5px; /* Adjust margin as needed */
+			padding-right: 5px; /* Add padding for spacing */
+		}
+		article {
+			overflow: hidden; /* Clear float */
+			border-left: 1px solid black; /* Add border to the left */
+			padding-left: 20px; /* Add padding for spacing */
+		}
+	</style>
+	
+</head>
+<body>
+
+    <header> 
+        <img src="images/me.jpg" alt="Profile Image" class="profile-image" onclick="showAlert()">
+        <h1>Self Introduction</h1>
+    </header>
+    <div class="hero">
+        <nav>
+            <a href="index.html" class="btn anim">Home</a> 
+            <a href="narrative1.html" class="btn anim">Narrative</a>
+            <a href="aboutme1.html" class="btn anim">About me</a>
+            <a href="information1.html" class="btn anim">Information</a>
+        </nav>
+        <hr color="black" style="margin-top: 2%;">
+
+		<div class="object-container">
+            <p><strong>Java Programming 8th Edition(2015)</strong></p>
+			<object data="images/Java_Programming_8th_Edition_(2015).pdf" type="application/pdf" width="300" height="200">
+				<p>PDF viewer is not available. <a href="Java_Programming_8th_Edition_(2015).pdf">Download the PDF</a> instead.</p>
+			</object>
+            <p>My first coding in C Programming</p>
+<pre>
+    <code>#include &lt;stdio.h&gt;
+                
+         int main() {
+         printf("Hello, world!\n");
+         return 0;
+         }
+                </code>
+                </pre>
+                
+		</div>
+        <!-- Introduction Content -->
+        <article>
+            <h2><b>About My Life as a Computer Engineer Student</b></h2>
+            <p>
+                Hi there! I'm a <em>Computer Engineer Student</em>, and I love to create and innovate with technology.
+                My journey started with a passion for solving problems and a curiosity about how computers work.
+                Whether it's designing software, optimizing hardware, or developing algorithms, I thrive on the challenge of making technology more efficient and accessible.
+                In my free time, you'll often find me tinkering with new projects, learning new programming languages, or exploring the latest advancements in the field.
+                I believe that technology has the power to change the world for the better, and I'm excited to be a part of that journey as a <dfn title="Computer Engineer Student">Computer Engineer Student</dfn>.
+            </p>
+            <aside>
+                <small>
+                    Disclaimer: Views expressed here are my own.
+                </small>
+            </aside>
+            <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+            <figure>
+                <img src="images/Computer Engineering.jpg" alt="Computer Engineer student" width="300">
+                <figcaption>Computer Engineer Students at work</figcaption>
+            </figure>
+            </div>
+            <video controls width="100%">
+                <source src="images/video.mp4" type="video/mp4">
+
+            </video>
+            <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+                <h2>Family Picture</h2>
+                <embed src="images/Family.jpg" type="image/jpeg" width="400" height="300">
+                
+            </div>
+            <script src="myscript.js"></script>
+        </article>
+    </div>
+</body>
+</html>
